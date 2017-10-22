@@ -215,7 +215,7 @@ body {
 }
 
 .index-highlight-green {
-	background: rgba(65, 114, 19, .6);
+	background: rgba(94, 124, 66, .8);
 	color: #fafafa;
 	display: block;
 	margin: 25px -15px;
@@ -334,7 +334,7 @@ p {
 }
 
 .green-color {
-	color: #417213;
+	color: #5E7C42;
 }
 
 .red-color {
@@ -353,7 +353,7 @@ p {
 }
     
 .label-success {
-    background: #417213;
+    background: #5E7C42;
 }
     
 .label-info {
@@ -417,7 +417,7 @@ p {
 }
 
 .banner-title .round-number-green {
-	background: #417213;
+	background: #5E7C42;
 	-moz-border-radius: 20px;
 	-webkit-border-radius: 20px;
 	border-radius: 20px;
