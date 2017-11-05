@@ -347,24 +347,52 @@ p {
     
 /* Labels */
 .label {
+    background: #fff;
+    border: 2px solid #ddd;
+    cursor: pointer;
     font-weight: normal;
     font-size: 14px;
+    line-height: 35px;
     margin: 0 5px;
 }
     
 .label-success {
-    background: #5E7C42;
+    border-color: #5E7C42;
+    color: #5E7C42;
 }
     
 .label-info {
-    background: #4E648E;
+    border-color: #4E648E;
+    color: #4E648E;
 }
     
-.label-error {
-    background: #701332;
+.label-danger {
+    border-color: #701332;
+    color: #701332;
 }
     
 .label-extreme {
+    border-color: #333;
+    color: #333;
+}
+    
+.label-active {
+    color: #fff;
+}
+    
+.label-active.label-success {
+    background: #5E7C42;
+}
+
+.label-active.label-info {
+    background: #4E648E;
+}
+    
+.label-active.label-danger {
+    background: #701332;
+}
+    
+.label-active.label-extreme {
     background: #333;
 }
 
@@ -474,6 +502,10 @@ ul li {
 
 ul.banner-list {
 	counter-reset: route-counter;
+}
+    
+ul.banner-list li {
+    margin-bottom: 20px;
 }
 
 ul.banner-list span {
