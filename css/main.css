@@ -61,8 +61,8 @@
 
 :root {
   --main-bg-color: #fafafa;
-  --main-font-color: #424242;
-  --secondary-color: #abb78c;
+  --main-font-color: #333;
+  --secondary-color: #747e69;
 
   --main-font-size: 1em;
 }
@@ -75,7 +75,7 @@ html, body, #wrapper {
 
 body {
 	background-color: #fafafa;
-	color: #424242;
+	color: #666;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
 	line-height: 1.2em;
@@ -164,7 +164,7 @@ body {
 .banner-detail .banner-triangle {
 	border-bottom: none;
 	border-left: none;
-	border-top: 125px solid #abb78c;
+	border-top: 125px solid #4d5d39;
     border-right: 960px solid transparent;
     bottom: inherit;
     top: 0;
@@ -191,20 +191,23 @@ body {
 	display: inline-block;
 	margin-top: 10vh;
 	max-width: 70%;
+    background: rgba(255,255,255, .5);
+    border-radius: 50%;
+    padding: 15px;
 }
 
 /* Highlight */
 
 .index-highlight {
-	background: rgba( 0, 0, 0, .4);
-	color: #fafafa;
+    background: rgba(255,255,255, 0.6);
+    color: #3a3b3d;
 	display: block;
 	margin: 25px -15px;
 	padding: 20px;
 }
 
 .index-highlight-blue {
-	background: rgba( 0, 80, 255, .3);
+	background: rgba(78, 100, 142, .8);
 	color: #fafafa;
 	display: block;
 	margin: 25px -15px;
@@ -212,7 +215,7 @@ body {
 }
 
 .index-highlight-green {
-	background: rgba( 30, 206, 42, .5);
+	background: rgba(94, 124, 66, .8);
 	color: #fafafa;
 	display: block;
 	margin: 25px -15px;
@@ -220,7 +223,15 @@ body {
 }
 
 .index-highlight-red {
-	background: rgba( 255, 0, 0, .2);
+	background: rgba(112, 19, 50, .6);
+	color: #fafafa;
+	display: block;
+	margin: 25px -15px;
+	padding: 20px;
+}
+    
+.index-highlight-black {
+    background: rgba(0, 0, 0, .6);
 	color: #fafafa;
 	display: block;
 	margin: 25px -15px;
@@ -230,7 +241,7 @@ body {
 /* Buttons */
 
 .btn-primary {
-	background: rgba( 0, 0, 0, .6);
+	background: rgba(28, 43, 9, 0.6);
 	border: 2px solid white;
 	color: white;
 	font-weight: bold;
@@ -240,7 +251,7 @@ body {
 
 .btn-primary:hover,
 .btn-primary:focus {
-	background: rgba( 0, 0, 0, .8);
+	background: rgba(28, 43, 9, 0.8);
 	border: 3px solid #fafafa;
 	margin-top: -2px;
 }
@@ -263,7 +274,7 @@ body {
 }
 
 .btn-back {
-	background: rgba( 0, 0, 0, .6);
+	background: rgba(28, 43, 9, 0.6);
 	color: white;
 	display: block;
 	padding: 10px;
@@ -275,7 +286,7 @@ body {
 
 .btn-back:hover,
 .btn-back:focus  {
-	background: rgba( 0, 0, 0, .8);
+	background: rgba(28, 43, 9, 0.8);
 	color: #fafafa;
 	outline: none;
 	text-decoration: none;
@@ -319,19 +330,70 @@ p {
 }
 
 .blue-color {
-	color: #0050ff;
+	color: #4E648E;
 }
 
 .green-color {
-	color: #1ece2a;
+	color: #5E7C42;
 }
 
 .red-color {
-	color: #ff0000;
+	color: #701332;
 }
 
 .black-color {
-	color: black;
+	color: #333;
+}
+    
+/* Labels */
+.label {
+    background: #fff;
+    border: 2px solid #ddd;
+    cursor: pointer;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 35px;
+    margin: 0 5px;
+}
+    
+.label-success {
+    border-color: #5E7C42;
+    color: #5E7C42;
+}
+    
+.label-info {
+    border-color: #4E648E;
+    color: #4E648E;
+}
+    
+.label-danger {
+    border-color: #701332;
+    color: #701332;
+}
+    
+.label-extreme {
+    border-color: #333;
+    color: #333;
+}
+    
+.label-active {
+    color: #fff;
+}
+    
+.label-active.label-success {
+    background: #5E7C42;
+}
+
+.label-active.label-info {
+    background: #4E648E;
+}
+    
+.label-active.label-danger {
+    background: #701332;
+}
+    
+.label-active.label-extreme {
+    background: #333;
 }
 
 /* Banners */
@@ -371,7 +433,7 @@ p {
 }
 
 .banner-title .round-number-blue {
-	background: rgb(0, 80, 255);
+	background: #4E648E;
 	-moz-border-radius: 20px;
 	-webkit-border-radius: 20px;
 	border-radius: 20px;
@@ -383,7 +445,7 @@ p {
 }
 
 .banner-title .round-number-green {
-	background: rgb(30, 206, 42);
+	background: #5E7C42;
 	-moz-border-radius: 20px;
 	-webkit-border-radius: 20px;
 	border-radius: 20px;
@@ -395,7 +457,7 @@ p {
 }
 
 .banner-title .round-number-red {
-	background: rgb(255, 0, 0);
+	background: #701332;
 	-moz-border-radius: 20px;
 	-webkit-border-radius: 20px;
 	border-radius: 20px;
@@ -407,7 +469,7 @@ p {
 }
 
 .banner-title .round-number-black {
-	background: black;
+	background: #333;
 	-moz-border-radius: 20px;
 	-webkit-border-radius: 20px;
 	border-radius: 20px;
@@ -440,6 +502,10 @@ ul li {
 
 ul.banner-list {
 	counter-reset: route-counter;
+}
+    
+ul.banner-list li {
+    margin-bottom: 20px;
 }
 
 ul.banner-list span {
