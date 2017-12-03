@@ -25,6 +25,20 @@
 }
 
 @media (min-width: 1024px) { 
+	html, body, #wrapper {
+		height: auto;
+	}
+
+	.index-bg {
+		background-size: 100%;
+	}
+
+	.btn-index {
+		display: table;
+		position: relative;
+		width: 100%;
+	}
+
    	.banner-triangle {
    		border-bottom: 100px solid var(--main-bg-color);
   		border-left: 1200px solid transparent;
@@ -67,4 +81,43 @@
 	    position: absolute;
 	    right: 0;
   	}
+}
+
+/* ----------- iPad Pro ----------- */
+/* Portrait */
+@media only screen 
+and (min-device-width: 1024px) 
+and (min-device-height: 1366px) 
+and (-webkit-min-device-pixel-ratio: 2) {
+	html, body, #wrapper {
+		height: 100%;
+	}
+
+	.index-bg {
+		background-size: cover;
+	}
+
+	.btn-index {
+		display: inherit;
+		position: absolute;
+	}
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 1366px) 
+and (min-device-height: 1024px) 
+and (-webkit-min-device-pixel-ratio: 2) {
+	html, body, #wrapper {
+		height: 100%;
+	}
+
+	.index-bg {
+		background-size: cover;
+	}
+
+	.btn-index {
+		display: inherit;
+		position: absolute;
+	}
 }
