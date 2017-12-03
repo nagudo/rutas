@@ -299,6 +299,16 @@ body {
 	position: absolute;
 }
 
+.btn-group-2 a {
+	float: left;
+	margin-right: 1%;
+	width: 49.5%;
+}
+
+.btn-group-2 a:last-child {
+	margin-right: 0;
+}
+
 
 /* Headings */
 
@@ -499,10 +509,6 @@ p {
 ul li {
 	line-height: 1.4em;
 }
-
-ul.banner-list {
-	counter-reset: route-counter;
-}
     
 ul.banner-list li {
     margin-bottom: 20px;
@@ -521,12 +527,6 @@ ul.banner-list .banner-image {
 	height: 150px;
 	position: relative;
 	width: 100%;
-}
-
-ul.banner-list span::before {
-	content: counter(route-counter);
-	counter-increment: route-counter;
-	margin-right: 10px;
 }
 
 ul.icon-list li {
