@@ -551,6 +551,18 @@ ul.icon-list li span {
 	width: 100%;
 }
 
+.load-iframe-blue {
+	background: url("../img/icons/earth_blue.gif") no-repeat 50% 0%;  /* Thank you Mantas! - http://mantasbac.dribbble.com/ */
+}
+
+.load-iframe-red {
+	background: url("../img/icons/earth_red.gif") no-repeat 50% 0%;  /* Thank you Mantas! - http://mantasbac.dribbble.com/ */
+}
+
+.load-iframe-black {
+	background: url("../img/icons/earth_black.gif") no-repeat 50% 0%;  /* Thank you Mantas! - http://mantasbac.dribbble.com/ */
+}
+
 .load-iframe iframe {
 	height: 100%;
 	width: 100%;
