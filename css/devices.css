@@ -1,48 +1,48 @@
 /* Larger devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-	.container {
-		padding-bottom: 40px;
-	}
+    .container {
+        padding-bottom: 10px;
+    }
 
-	.logo {
-		max-width: 300px;
-	}
+    .logo {
+        max-width: 300px;
+    }
 
-	.index-highlight {
-		margin-left: auto;
-		margin-right: auto;
-		width: 60%;
-	}
+    .index-highlight {
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
 
-	li .index-highlight {
-  		width: 100%;
-  	}
+    li .index-highlight {
+          width: 100%;
+      }
 
-  	.banner-detail .banner-triangle {
-  		border-top: 80px solid var(--secondary-color);
-  		border-right: 1200px solid transparent;
-  	}
+      .banner-detail .banner-triangle {
+          border-top: 80px solid var(--secondary-color);
+          border-right: 1200px solid transparent;
+      }
 }
 
 @media (min-width: 1024px) { 
-	html, body, #wrapper {
-		height: auto;
-	}
+    html, body, #wrapper {
+        height: auto;
+    }
 
-	.index-bg {
-		background-size: 100%;
-	}
+    .index-bg {
+        background-size: 100%;
+    }
 
-	.btn-index {
-		display: table;
-		position: relative;
-		width: 100%;
-	}
+    .btn-index {
+        display: table;
+        position: relative;
+        width: 100%;
+    }
 
-   	.banner-triangle {
-   		border-bottom: 100px solid var(--main-bg-color);
-  		border-left: 1200px solid transparent;
-  	}
+       .banner-triangle {
+           border-bottom: 100px solid var(--main-bg-color);
+          border-left: 1200px solid transparent;
+      }
 }
 
 /* Landscape phones */
@@ -50,38 +50,30 @@
   and (min-device-width: 480px) 
   and (max-device-width: 767px)
   and (orientation: landscape) {
-  	.logo {
-  		float: left;
-  		text-align: center;
-    	width: 40%;
-  	}
+      .logo {
+          float: left;
+          text-align: center;
+        width: 40%;
+      }
 
-  	.index-highlight {
-  		float: right;
-  		margin-top: 15vh;
-  		width: 60%;
-  	}
+      .index-highlight {
+          float: right;
+          margin-top: 15vh;
+          width: 60%;
+      }
 
-  	li .index-highlight {
-  		float: none;
-  		margin-top: inherit;
-  		width: 100%;
-  	}
+      li .index-highlight {
+          float: none;
+          margin-top: inherit;
+          width: 100%;
+      }
 
-  	.banner-detail .banner-triangle {
-  		border-top: 100px solid var(--secondary-color);
-  	}
+      .banner-detail .banner-triangle {
+          border-top: 100px solid var(--secondary-color);
+      }
 }
 
-@media (min-width: 768px)
-  and (orientation: portrait) { 
-   	.btn-bottom {
-	    bottom: 0;
-	    left: 0;
-	    position: absolute;
-	    right: 0;
-  	}
-}
+
 
 /* ----------- iPad Pro ----------- */
 /* Portrait */
@@ -89,18 +81,18 @@
 and (min-device-width: 1024px) 
 and (min-device-height: 1366px) 
 and (-webkit-min-device-pixel-ratio: 2) {
-	html, body, #wrapper {
-		height: 100%;
-	}
+    html, body, #wrapper {
+        height: 100%;
+    }
 
-	.index-bg {
-		background-size: cover;
-	}
+    .index-bg {
+        background-size: cover;
+    }
 
-	.btn-index {
-		display: inherit;
-		position: absolute;
-	}
+    .btn-index {
+        display: inherit;
+        position: absolute;
+    }
 }
 
 /* Landscape */
@@ -108,16 +100,16 @@ and (-webkit-min-device-pixel-ratio: 2) {
 and (min-device-width: 1366px) 
 and (min-device-height: 1024px) 
 and (-webkit-min-device-pixel-ratio: 2) {
-	html, body, #wrapper {
-		height: 100%;
-	}
+    html, body, #wrapper {
+        height: 100%;
+    }
 
-	.index-bg {
-		background-size: cover;
-	}
+    .index-bg {
+        background-size: cover;
+    }
 
-	.btn-index {
-		display: inherit;
-		position: absolute;
-	}
+    .btn-index {
+        display: inherit;
+        position: absolute;
+    }
 }
