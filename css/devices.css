@@ -26,14 +26,19 @@
 
 @media (min-width: 1024px) { 
     html, body, #wrapper {
-        height: auto;
+        min-height: 100%;
     }
 
     .index-bg {
         background-size: 100%;
     }
 
+    .container {
+        min-height: 100%;
+    }
+
     .btn-index {
+        bottom: 40px;
         display: table;
         position: relative;
         width: 100%;
@@ -43,6 +48,12 @@
            border-bottom: 100px solid var(--main-bg-color);
           border-left: 1200px solid transparent;
       }
+}
+
+@media (min-height: 1024px) { 
+    .btn-back-track {
+        display: none;
+    }
 }
 
 /* Landscape phones */
