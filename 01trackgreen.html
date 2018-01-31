@@ -7,7 +7,7 @@
 		<link rel="stylesheet" href="css/main.css" />
 		<link rel="stylesheet" href="css/devices.css" />
 	</head>
-	<body>
+	<body onload="onBodyLoad()">
 
 		<!-- Wrapper -->
 		<div id="wrapper">
@@ -61,6 +61,14 @@
 							</li>
 						</ul>
 						<div class="clear-40"></div>
+						<div class="text-center">
+							<div class="btn btn-default btn-secondary" role="button" onclick="fileDownload('01Picauve.GPX')">Descargar GPX</div>
+						</div>
+						<div class="clear-40"></div>
+						<div class="text-center">
+							<div class="btn btn-default btn-secondary" role="button" onclick="getList()">Listado Rutas</div>
+						</div>
+						<div class="clear-40"></div>
 					</div>
 				</div>
 			</section>
@@ -72,7 +80,8 @@
 		</div>
 
 		<!-- Scripts -->
-			<script src="js/jquery.min.js"></script>
-
+		<script src="cordova.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/download.js"></script>
 	</body>
 </html>
